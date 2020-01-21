@@ -1,0 +1,100 @@
+body {
+    background-color: #ececec;
+}
+
+.title {
+    background-color: dodgerblue;
+    padding: 1rem;
+    margin: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.text {
+    margin-left: 20px;
+}
+
+.info {
+    background-color: tomato;
+    padding: 1rem;
+    margin: 1rem;
+    color: white;
+}
+
+#favorite-colors {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.colors {
+    padding: 2.5px 0;
+}
+
+.colors li {
+    background-color: #c7c7c7;
+    padding: 4px;
+}
+
+#tomato-box {
+    background-color: tomato;
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    padding: 1rem;
+}
+
+#dodgerblue-box {
+    background-color: dodgerblue;
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    padding: 1rem;
+}
+
+#team-members {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+img {
+    margin: 15px 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    display: block;
+}
+
+.bold-name {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tomato-member {
+    color: tomato;
+}
+
+.dodgerblue-member {
+    color: dodgerblue;
+}
+
+.products {
+    list-style-type: none;
+    padding-left: 20px;
+    color: dodgerblue;
+}
+
+.products li:nth-child(odd) {
+    color: tomato;
+}
+
+.bold-text {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bottom-border {
+    border-bottom: 1px solid tomato;
+    margin-right: 17px;
+}
